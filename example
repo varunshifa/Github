@@ -1,11 +1,11 @@
-pipeline {
-agent any
-  stages {
-   stage('build') {
-    steps {
-    sh 'echo "new github"'
-    }
-    }
-    }
-    }
+               Pipeline {
+                         agent any
+                          stages {
+                                 stage(‘Build’) {
+                                            steps {
+                                                      sh ‘echo “Build Completed”’
+                                                     }
+                                              }
+                                         }
+}
 
